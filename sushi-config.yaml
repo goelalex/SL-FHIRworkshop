@@ -4,7 +4,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.SLexampleIG
 canonical: http://example.org
-name: SLexampleIG
+name: SLCoreexampleIG
+title: "SL Core"
+description: "A test IG for SL Core"
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
@@ -16,4 +18,7 @@ releaseLabel: ci-build
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Section: 
+    Test1: test1.html
+    Test2: test2.html
   Artifacts: artifacts.html
