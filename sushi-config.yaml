@@ -12,6 +12,13 @@ version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build
+pages: 
+  index.md: 
+    title: Home
+  test1.md:
+    title: Test 1
+  test2.md: 
+    title: Test 2
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
