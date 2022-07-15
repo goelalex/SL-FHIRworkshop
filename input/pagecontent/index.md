@@ -4,5 +4,11 @@ Feel free to modify this index page with your own awesome content!
 
 IGs start at H3
 
+### This is another header
+
+Did we get a table of contents?
+Yes!
+
+
 #### This is another Header at H4
 [SL Core Patient Profile](StructureDefinition-SLCorePatient.html)
