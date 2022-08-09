@@ -48,6 +48,10 @@ Description: "Defines the LK Core constraints and extensions on the Patient reso
 * address.extension contains $SLAddressExt named SLAddressExt 0..*
 * address.extension[SLAddressExt] ^short = "SL address example extension"
 * address.extension[SLAddressExt] ^min = 0
+* extension contains $SLMOHareaExt named SLMOHareaExt 0..1
+* extension[SLMOHareaExt] ^short = "SL MoH Area"
+* extension[SLMOHareaExt] ^min = 0
+
 
 Invariant: ref-1
 Description: "SHALL have a contained resource if a local reference is provided"
